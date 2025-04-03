@@ -1,0 +1,46 @@
+Configurar entorno (Navegador, Node.js)
+  
+  Ejecutar JavaScript en el Navegador
+Los navegadores tienen un motor de JavaScript incorporado que permite ejecutar código sin
+nesesidad de instalar nada.
+
+  1. Usar la consola del navegador.
+    - Abre Google Chrome o tú navegador de preferencia
+    - Preciona F12 o ctrl + shift + I para abrir las herramientas de desarrollador.
+    - Ve a la pestaña de "CONSOLA"
+    - Escribe y ejecuta:
+        console.log('¡Hello, this is a basic JavaScript course!')
+    - Salida:
+        ¡Hello, this is a basic JavaScript course!
+
+  2. Incluir JavaScript en HTML
+     Puedes escribir JavaScript dentro de una etiqueta <script></script> en un archivo HTML
+
+     <!DOCTYPE html>
+     <html lang="es">
+      <head>
+        <meta charset="UTF-8">
+        <title>My first JS</title>
+      </head>
+      <body>
+        <h1>¡Hello, JS!</h1>
+        <script>
+          alert("¡Hello from JavaScript!")
+          consola.log("Message in the console")
+        </script>
+      </body>
+     </html>
+
+
+Ejecutar JavaScript con Node.js 
+Para correr JavaScript fuera del navegador, usamos Node.js
+  1. Instalar Node.js
+      - Descargar de su pagina oficial: https://nodejs.org/en
+      - verificar la instalación ejecutando en la consola: node -v
+  2. Ejecutar JavaScript con Node.js 
+      - Crear un archivo script.js en VS Code:
+      - Agregar lo siguiente a la terminal para verificar que esta funcionando correctamente Node.js.
+            console.log("Hello, Node.js")
+      - Abrir la terminal y ejecutar: node script.js.
+      - Salida esperada: Hello, Node.js
+
